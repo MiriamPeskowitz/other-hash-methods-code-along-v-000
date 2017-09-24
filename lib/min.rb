@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries.values.flatten.min
-  binding.pry
+  first = groceries.values.flatten.min
+  puts first
 end
